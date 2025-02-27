@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project4 home</title>
+    <link rel="icon" href="img/linux-tux.svg">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="main_container">
+      <div class="header">
+        <h1>Main Linux Distributions</h1>
+      </div>
+      <div class="main">
+        <div class="nav">
+          <a href="index.html"><h3><u>Home</u></h3></a>
+          <a class="selected" href="debian.html"><h3><u><em>Debian</em></u></h3></a>
+          <a href="arch.html"><h3><u>Arch</u></h3></a>
+          <a href="redhat.html"><h3><u>Redhat</u></h3></a>
+          <a href="about.html"><h3><u>About</u></h3></a>
+        </div>
+        <div class="content_container">
+          <div class="lbox">
+            <h2 class="box">Debian</h2>
+            <div class="content">
+              <h2>The Stable</h2>
+              <p class="home">
+                <a href="https://www.debian.org/" target="_blank"><img id="floatLeft50" src="img/debian.jpg" alt="debian.com homepage"></a>
+                <strong><u>Some History</u></strong>
+                <br><br>
+                 is a free and open source Linux distribution developed by the Debian Project. Debian was created and established by Ian 
+                Murdock on August 16, 1993, who aimed to create a Linux distribution built on the free and open source principles. Debian is 
+                currently the second oldest Linux distribution still in active development, behind only Slackware. Debian is known for it's 
+                stability and security in the Linux world, but that comes at the cost of having older software versions.
+              </p>
+              <p class = "home">
+                <strong><u>Using Debian</u></strong>
+                <br><br>
+                Because the Debian team employes rigorous testing before software packages are released, and stability is prioritzed over the cutting edge,
+                Debian packages are often many versions behind the latest release. This also means that new versions of Debian Linux are on a longer release 
+                cycle than othet distributions. A new version of Debian is released every 2 years, and is supported for 5 years after release. 
+                <br><br>
+                Debain uses the APT package manager, which is a powerful tool for managing software packages. APT is used to install, update, and remove 
+                software from your system. To install a package using APT, you would use the command 
+                <strong style="background-color: rebeccapurple;">"sudo apt install package-name"</strong>.
+                Furthermore to update all of your software with a one liner, you would use the command
+                <strong style="background-color: rebeccapurple;">"sudo apt update && sudo apt upgrade"</strong>. 
+                This command will update the package list and then upgrade all of your software to the latest version currently listed in the Debian repositories.
+                <br><br>
+                By default, Debain uses the GNOME desktop environment, but you can choose just about any desktop environment you want like Plasma,
+                Cinnamon, or XFCE. The GNOME desktop environment, is a modern desktop environment that could be most easily compared to the MacOS desktop.
+                It is easy to use, navigate and make your own with plenty of available themes and extensions.
+              </p>
+              <p class = "home">
+                <strong><u>Wrapping Up</u></strong><br><br>
+                Debian is a great distro for those that value stability and security over the latest and greatest software, however, I don't think it's
+                the best for beginners. By default, Debian doesn't come with proprietary software, so you'll have to install it yourself. This can be
+                a bit of a pain for beginners, but it's not impossible. If you are a beginner, I would recommend starting with a distro based on Debian
+                that includes proprietary software by default, like Ubuntu or Linux Mint.
+              </p>
+            </div>
+          </div>
+          <div class="rbox">
+            <h2 class="box">Based on Debian</h2>
+            <div class="content">
+              <h4>Ubuntu</h4>
+              <a href="https://ubuntu.com/" target="_blank"><img src="img/ubuntu.jpg" alt="Ubuntu Screen Shot"></a>
+              <p>
+                Ubuntu is a Linux Distro based on Debian, and is one of the most popular distros in the world. 
+                It is known for it's ease of use and it's ever expanding user base. Because Ubuntu has been 
+                so popular for so long, you'll find plenty of helpful resources online to help you if you decide
+                on this stapple in the Linux world.
+              </p>
+            </div>
+            <div class="content">
+              <h4>Linux Mint</h4>
+              <a href="https://linuxmint.com/" target="_blank"><img src="img/mint.jpg" alt="Linux Mint Screen Shot"></a>
+              <p>
+                Linux Mint is a distro based on Ubuntu, which is based on Debian. It is known for it's out of the box
+                usability and it's focus on user experience. It is a great distro for beginners and experienced users alike.
+                This is the Distro that would recommend to anyone who is new to Linux and wants to get their feet wet.
+              </p>
+            </div>
+            <div class="content">
+              <h4>Pop!_OS</h4>
+              <a href="https://pop.system76.com/" target="_blank"><img src="img/popos.jpg" alt="Pop!_OS Screen Shot"></a>
+              <p>
+                Pop!_OS is a Linux distro based on Ubuntu, which is based on Debian. It is known for it's user experience
+                and it's focus on gaming. This is another great distro for beginners, and has recently started making a
+                new desktop environment called COSMIC, entirely based on the RUST programming language.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <p>&copy; Nicholas Gerard Websites Inc., Ltd., Co., LLC.
+          <br>
+          Please direct all business requests to <a class="email" href="mailto:njgerard@pm.me">njgerard@pm.me</a> 
+          or call at (555)-555-5555.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
