@@ -33,7 +33,7 @@ body {
   border-radius: 1rem;
   gap: 2rem;
   text-align: center;
-  height: 275px;
+  height: 100%;
 }
 .content_container {
   flex: 1;
